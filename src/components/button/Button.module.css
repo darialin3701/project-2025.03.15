@@ -1,0 +1,42 @@
+.button {
+    padding: 20px 32px 20px 32px;
+    border-radius: 4px;
+    font-family: Comfortaa, sans-serif;
+    cursor: pointer;
+}
+
+.primary {
+    background: #605DEC;
+    border: 1px solid #605DEC;
+    color: #FFFFFF;
+
+    &:hover {
+        background: #3D3ACE
+    }
+
+    &:focus {
+        background: #3D3ACE;
+    }
+
+    &:active {
+        background: #3D3ACE;
+    }
+}
+
+.secondary {
+    background: transparent;
+    border: 1px solid #605DEC;
+    color: #605DEC;
+}
+
+.tertiary {
+    background: transparent;
+    border: 1px solid transparent;
+    color: #605DEC;
+}
+
+.disabled {
+    background: #F4F3FE;
+    color: #C5C0DB;
+    border-color: transparent;
+}

@@ -1,0 +1,50 @@
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #BDBCDB;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid #605DEC;
+    }
+}
+
+.activeBorder {
+    border: 1px solid #605DEC;
+}
+
+.checked {
+    background: #7B61FF;
+}
+
+.disabled {
+    background: #F4F3FE;
+    border-color: transparent;
+    cursor: not-allowed;
+
+    &:hover {
+        border-color: transparent;
+    }
+
+    path {
+        stroke: #C5C0DB;
+    }
+}
+
+.error {
+    border: 1px solid #F93232;
+
+    &:hover {
+        border: 1px solid #F93232;
+    }
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
