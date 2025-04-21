@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lightTheme {
+    height: 100%;
+    --background-color: #999797;
+    --background-background-color: #282828;
+    --button-label-color: #999797;
+}
+
+.darkTheme {
+    height: 100%;
+    --background-color: #282828;
+    --background-background-color: #999797;
+    --button-label-color: #282828;
+}
+
+body {
+    height: 100vh;
+}
+
+.main {
+    height: 100%;
+    padding: 20px;
+    background: var(--background-color);
+}

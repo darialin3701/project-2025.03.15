@@ -6,9 +6,10 @@
 }
 
 .primary {
-    background: #605DEC;
-    border: 1px solid #605DEC;
-    color: #FFFFFF;
+    background: var(--background-background-color);
+    color: var(--button-label-color);
+    border: 1px solid var(--background-background-color);
+    /* color: #FFFFFF; */
 
     &:hover {
         background: #3D3ACE
